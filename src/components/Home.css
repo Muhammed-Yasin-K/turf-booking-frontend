@@ -1,0 +1,87 @@
+/* Home.css */
+
+/* Landscape image style */
+.carousel-img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* Dark overlay for text readability */
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Adjust overlay darkness */
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* Center and style caption */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+/* Home.css */
+body,
+h1, h2, h3, h4, h5, h6,
+.card,
+.card-title,
+.card-text,
+.list-group-item {
+  font-family: 'Poppins', sans-serif,'Lato','Rubik';
+  letter-spacing: 0.4px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-weight: 400;
+}
+.campnou-footer {
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-link {
+  color: #d1d5db;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #38bdf8;
+}
+.home-bg {
+  background-image: url(''); /* adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* full height */
+}

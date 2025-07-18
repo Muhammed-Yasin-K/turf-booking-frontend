@@ -1,0 +1,25 @@
+.logo-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand:hover span {
+  color: #0d6efd; /* Bootstrap primary */
+  transition: color 0.3s;
+}
+
+/* Nav.css */
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.navbar{
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+  font-family: 'Poppins', sans-serif;
+}
