@@ -89,7 +89,6 @@ const ViewBooking = () => {
                             <h6 className="text-uppercase fw-bold mb-3">Quick Links</h6>
                             <ul className="list-unstyled">
                                 <li><a href="#" className="footer-link">Home</a></li>
-                                <li><a href="#" className="footer-link">Select Turf</a></li>
                                 <li><a href="#" className="footer-link">Book Now</a></li>
                                 <li><a href="#" className="footer-link">Tournaments</a></li>
                             </ul>

@@ -5,6 +5,7 @@ import './Home.css';
 const Home = () => {
     return (
         <div>
+            <div className="home-background">
             <Nav />
             <br />
             <div className="container">
@@ -48,7 +49,7 @@ const Home = () => {
                                     />
                                     <div className="carousel-caption">
                                         <h5>Play Like a Pro</h5>
-                                        <p>Experience your game in high-quality stadium</p>
+                                        <p>Experience your game in high-quality Turf</p>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +67,7 @@ const Home = () => {
 
                     <br />
                     <div className="row g-5">
-                        <h1 className="text-center">FACILITIES OF TURF</h1>
+                        <h1 className="text-center text-dark ">FACILITIES OF TURF</h1>
                         <div className="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                             <div className="card h-100">
                                 <img src="https://liffatrivandrum.org/wp-content/uploads/2020/01/National-6-KOVAI-DHANAM-2019-2020.jpg" className="card-img-top" alt="Tournament Booking" />
@@ -145,7 +146,6 @@ const Home = () => {
                             <h6 className="text-uppercase fw-bold mb-3">Quick Links</h6>
                             <ul className="list-unstyled">
                                 <li><a href="#" className="footer-link">Home</a></li>
-                                <li><a href="#" className="footer-link">Select Turf</a></li>
                                 <li><a href="#" className="footer-link">Book Now</a></li>
                                 <li><a href="#" className="footer-link">Tournaments</a></li>
                             </ul>
@@ -163,6 +163,7 @@ const Home = () => {
                     </div>
                 </div>
             </footer>
+         </div>
          </div>
         
     );

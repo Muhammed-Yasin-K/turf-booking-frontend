@@ -78,10 +78,36 @@ h1, h2, h3, h4, h5, h6,
 .footer-link:hover {
   color: #38bdf8;
 }
-.home-bg {
-  background-image: url(''); /* adjust path as needed */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh; /* full height */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.home-background {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  margin-top: 0 !important;
+}
+
+.card {
+  border: none;
+  box-shadow: none !important;
+}
+
+.footer-link {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
